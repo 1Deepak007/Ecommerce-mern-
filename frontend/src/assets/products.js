@@ -5,9 +5,9 @@ export const products = [
         category: "women",
         date: new Date("2024-09-20"),
         description: "A beautiful and stylish top for everyday wear.",
-        imageUrl: "https://example.com/products/women/top1.jpg",
+        imageUrl: "https://images.pexels.com/photos/1462637/pexels-photo-1462637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: "Stylish Women’s Top",
-        price: 29.99,
+        price: 1999,
         sizes: ["S", "M", "L", "XL", "XXL", "XXXL"],
         subCategory: "Topwear"
     },
@@ -17,9 +17,9 @@ export const products = [
         category: "children",
         date: new Date("2024-09-18"),
         description: "Comfy and cute hoodie for children.",
-        imageUrl: "https://example.com/products/children/hoodie1.jpg",
+        imageUrl: "https://images.pexels.com/photos/14545809/pexels-photo-14545809.jpeg?auto=compress&cs=tinysrgb&w=600",
         name: "Kids Hoodie",
-        price: 19.99,
+        price: 1299,
         sizes: ["S", "M", "L", "XL", "XXL"],
         subCategory: "Topwear"
     },
@@ -29,9 +29,9 @@ export const products = [
         category: "men",
         date: new Date("2024-09-15"),
         description: "A durable pair of jeans for men.",
-        imageUrl: "https://example.com/products/men/jeans1.jpg",
+        imageUrl: "https://media.istockphoto.com/id/1614454660/photo/male-model-posing-in-green-kurta.jpg?b=1&s=612x612&w=0&k=20&c=KlK3Y_yuPNjwAMqk-I_Xyi3SLA8J8Qc-HqY4KmwP4rA=",
         name: "Men’s Jeans",
-        price: 49.99,
+        price: 4999,
         sizes: ["S", "M", "L", "XL", "XXL"],
         subCategory: "Bottomwear"
     },
@@ -41,9 +41,9 @@ export const products = [
         category: "girls",
         date: new Date("2024-09-17"),
         description: "Trendy skirt for girls, perfect for casual outings.",
-        imageUrl: "https://example.com/products/girls/skirt1.jpg",
+        imageUrl: "https://images.pexels.com/photos/7402931/pexels-photo-7402931.jpeg?auto=compress&cs=tinysrgb&w=600",
         name: "Girls Skirt",
-        price: 24.99,
+        price: 2499,
         sizes: ["S", "M", "L", "XL"],
         subCategory: "Bottomwear"
     },
@@ -53,9 +53,9 @@ export const products = [
         category: "women",
         date: new Date("2024-09-21"),
         description: "Comfortable sandals for women, perfect for summer.",
-        imageUrl: "https://example.com/products/women/sandals1.jpg",
+        imageUrl: "https://images.pexels.com/photos/19906662/pexels-photo-19906662/free-photo-of-white-heels-and-bottle-of-perfume-on-fur.jpeg?auto=compress&cs=tinysrgb&w=600",
         name: "Women’s Sandals",
-        price: 39.99,
+        price: 3999,
         sizes: ["S", "M", "L"],
         subCategory: "Footwear"
     },
@@ -65,9 +65,9 @@ export const products = [
         category: "men",
         date: new Date("2024-09-12"),
         description: "Stylish sunglasses for men to enhance your look.",
-        imageUrl: "https://example.com/products/men/sunglasses1.jpg",
+        imageUrl: "https://images.pexels.com/photos/28354681/pexels-photo-28354681/free-photo-of-a-man-in-a-hat-and-white-pants-standing-on-a-beach.jpeg?auto=compress&cs=tinysrgb&w=600",
         name: "Men’s Sunglasses",
-        price: 19.99,
+        price: 1999,
         sizes: ["One Size"],
         subCategory: "Accessories"
     },
@@ -77,9 +77,9 @@ export const products = [
         category: "women",
         date: new Date("2024-09-10"),
         description: "Comfortable cap for outdoor activities.",
-        imageUrl: "https://example.com/products/women/cap1.jpg",
+        imageUrl: "https://images.pexels.com/photos/1124465/pexels-photo-1124465.jpeg?auto=compress&cs=tinysrgb&w=600",
         name: "Women’s Outdoor Cap",
-        price: 14.99,
+        price: 1499,
         sizes: ["One Size"],
         subCategory: "Accessories"
     },
@@ -89,9 +89,9 @@ export const products = [
         category: "children",
         date: new Date("2024-09-05"),
         description: "Colorful shoes for children, perfect for everyday use.",
-        imageUrl: "https://example.com/products/children/shoes1.jpg",
+        imageUrl: "https://images.pexels.com/photos/10485371/pexels-photo-10485371.jpeg?auto=compress&cs=tinysrgb&w=600",
         name: "Kids Shoes",
-        price: 29.99,
+        price: 2999,
         sizes: ["S", "M", "L"],
         subCategory: "Footwear"
     },
@@ -101,9 +101,9 @@ export const products = [
         category: "women",
         date: new Date("2024-09-22"),
         description: "Elegant dress for formal occasions.",
-        imageUrl: "https://example.com/products/women/dress1.jpg",
+        imageUrl: "https://images.pexels.com/photos/7301279/pexels-photo-7301279.jpeg?auto=compress&cs=tinysrgb&w=600",
         name: "Women’s Formal Dress",
-        price: 79.99,
+        price: 7999,
         sizes: ["S", "M", "L", "XL"],
         subCategory: "Topwear"
     },
@@ -113,9 +113,9 @@ export const products = [
         category: "children",
         date: new Date("2024-09-19"),
         description: "Cute denim shorts for children.",
-        imageUrl: "https://example.com/products/children/shorts1.jpg",
+        imageUrl: "https://images.pexels.com/photos/8384958/pexels-photo-8384958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         name: "Kids Denim Shorts",
-        price: 19.99,
+        price: 1999,
         sizes: ["S", "M", "L"],
         subCategory: "Bottomwear"
     },
@@ -127,7 +127,7 @@ export const products = [
         description: "Classic leather jacket for men.",
         imageUrl: "https://example.com/products/men/jacket1.jpg",
         name: "Men’s Leather Jacket",
-        price: 129.99,
+        price: 12999,
         sizes: ["M", "L", "XL"],
         subCategory: "Outerwear"
     },
@@ -139,7 +139,7 @@ export const products = [
         description: "Stylish boots for women, perfect for winter.",
         imageUrl: "https://example.com/products/women/boots1.jpg",
         name: "Women’s Winter Boots",
-        price: 89.99,
+        price: 8999,
         sizes: ["S", "M", "L", "XL"],
         subCategory: "Footwear"
     },
@@ -151,7 +151,7 @@ export const products = [
         description: "Soft fleece jacket for kids.",
         imageUrl: "https://example.com/products/children/jacket1.jpg",
         name: "Kids Fleece Jacket",
-        price: 39.99,
+        price: 3999,
         sizes: ["S", "M", "L"],
         subCategory: "Outerwear"
     },
@@ -163,7 +163,7 @@ export const products = [
         description: "Comfortable sneakers for men.",
         imageUrl: "https://example.com/products/men/sneakers1.jpg",
         name: "Men’s Sneakers",
-        price: 59.99,
+        price: 5999,
         sizes: ["M", "L", "XL"],
         subCategory: "Footwear"
     },
@@ -175,7 +175,7 @@ export const products = [
         description: "Casual pants for women.",
         imageUrl: "https://example.com/products/women/pants1.jpg",
         name: "Women’s Casual Pants",
-        price: 39.99,
+        price: 3299,
         sizes: ["S", "M", "L"],
         subCategory: "Bottomwear"
     },
@@ -187,7 +187,7 @@ export const products = [
         description: "Elegant tie for men, perfect for formal occasions.",
         imageUrl: "https://example.com/products/men/tie1.jpg",
         name: "Men’s Elegant Tie",
-        price: 19.99,
+        price: 1999,
         sizes: ["One Size"],
         subCategory: "Accessories"
     },
@@ -199,7 +199,7 @@ export const products = [
         description: "Trendy handbag for women.",
         imageUrl: "https://example.com/products/women/handbag1.jpg",
         name: "Women’s Trendy Handbag",
-        price: 59.99,
+        price: 5999,
         sizes: ["One Size"],
         subCategory: "Accessories"
     },
@@ -211,7 +211,7 @@ export const products = [
         description: "Comfortable hoodie for kids.",
         imageUrl: "https://example.com/products/children/hoodie2.jpg",
         name: "Kids Hoodie",
-        price: 24.99,
+        price: 2499,
         sizes: ["S", "M", "L"],
         subCategory: "Topwear"
     },
@@ -223,7 +223,7 @@ export const products = [
         description: "Smartwatch for men with fitness tracking features.",
         imageUrl: "https://example.com/products/men/smartwatch1.jpg",
         name: "Men’s Smartwatch",
-        price: 199.99,
+        price: 19999,
         sizes: ["One Size"],
         subCategory: "Accessories"
     },
@@ -235,7 +235,7 @@ export const products = [
         description: "Casual sneakers for women.",
         imageUrl: "https://example.com/products/women/sneakers1.jpg",
         name: "Women’s Casual Sneakers",
-        price: 49.99,
+        price: 4999,
         sizes: ["S", "M", "L"],
         subCategory: "Footwear"
     },
@@ -247,7 +247,7 @@ export const products = [
         description: "Stylish sunglasses for men, perfect for summer.",
         imageUrl: "https://example.com/products/men/sunglasses2.jpg",
         name: "Men’s Sunglasses",
-        price: 29.99,
+        price: 2999,
         sizes: ["One Size"],
         subCategory: "Accessories"
     },
@@ -259,7 +259,7 @@ export const products = [
         description: "Summer dress for women.",
         imageUrl: "https://example.com/products/women/dress2.jpg",
         name: "Women’s Summer Dress",
-        price: 59.99,
+        price: 5999,
         sizes: ["S", "M", "L", "XL"],
         subCategory: "Topwear"
     },
@@ -271,7 +271,7 @@ export const products = [
         description: "Cute shoes for children.",
         imageUrl: "https://example.com/products/children/shoes2.jpg",
         name: "Kids Shoes",
-        price: 34.99,
+        price: 3499,
         sizes: ["S", "M", "L"],
         subCategory: "Footwear"
     },
@@ -283,7 +283,7 @@ export const products = [
         description: "Stylish scarf for women, perfect for winter.",
         imageUrl: "https://example.com/products/women/scarf1.jpg",
         name: "Women’s Winter Scarf",
-        price: 29.99,
+        price: 2999,
         sizes: ["One Size"],
         subCategory: "Accessories"
     },
@@ -295,7 +295,7 @@ export const products = [
         description: "Casual T-shirt for men.",
         imageUrl: "https://example.com/products/men/tshirt1.jpg",
         name: "Men’s Casual T-shirt",
-        price: 19.99,
+        price: 1999,
         sizes: ["S", "M", "L", "XL"],
         subCategory: "Topwear"
     },
@@ -307,7 +307,7 @@ export const products = [
         description: "Elegant earrings for women.",
         imageUrl: "https://example.com/products/women/earrings1.jpg",
         name: "Women’s Elegant Earrings",
-        price: 14.99,
+        price: 1499,
         sizes: ["One Size"],
         subCategory: "Accessories"
     },
@@ -319,7 +319,7 @@ export const products = [
         description: "Casual jacket for men.",
         imageUrl: "https://example.com/products/men/jacket2.jpg",
         name: "Men’s Casual Jacket",
-        price: 69.99,
+        price: 6999,
         sizes: ["S", "M", "L", "XL"],
         subCategory: "Outerwear"
     },
@@ -331,7 +331,7 @@ export const products = [
         description: "Cute dress for children.",
         imageUrl: "https://example.com/products/children/dress1.jpg",
         name: "Kids Dress",
-        price: 22.99,
+        price: 2299,
         sizes: ["S", "M", "L"],
         subCategory: "Topwear"
     },
@@ -343,7 +343,7 @@ export const products = [
         description: "Fashionable sunglasses for women.",
         imageUrl: "https://example.com/products/women/sunglasses2.jpg",
         name: "Women’s Sunglasses",
-        price: 19.99,
+        price: 1999,
         sizes: ["One Size"],
         subCategory: "Accessories"
     },
@@ -355,7 +355,7 @@ export const products = [
         description: "Comfortable sweatpants for men.",
         imageUrl: "https://example.com/products/men/sweatpants1.jpg",
         name: "Men’s Sweatpants",
-        price: 39.99,
+        price: 3999,
         sizes: ["M", "L", "XL"],
         subCategory: "Bottomwear"
     },
@@ -367,7 +367,7 @@ export const products = [
         description: "Stylish backpack for women.",
         imageUrl: "https://example.com/products/women/backpack1.jpg",
         name: "Women’s Stylish Backpack",
-        price: 49.99,
+        price: 4999,
         sizes: ["One Size"],
         subCategory: "Accessories"
     },
@@ -379,7 +379,7 @@ export const products = [
         description: "Comfy pajamas for children.",
         imageUrl: "https://example.com/products/children/pajamas1.jpg",
         name: "Kids Pajamas",
-        price: 14.99,
+        price: 1499,
         sizes: ["S", "M", "L"],
         subCategory: "Sleepwear"
     },
@@ -391,7 +391,7 @@ export const products = [
         description: "Men’s wallet with a minimalist design.",
         imageUrl: "https://example.com/products/men/wallet1.jpg",
         name: "Men’s Minimalist Wallet",
-        price: 29.99,
+        price: 2999,
         sizes: ["One Size"],
         subCategory: "Accessories"
     },
@@ -403,7 +403,7 @@ export const products = [
         description: "Elegant blouse for women.",
         imageUrl: "https://example.com/products/women/blouse1.jpg",
         name: "Women’s Elegant Blouse",
-        price: 39.99,
+        price: 3999,
         sizes: ["S", "M", "L", "XL"],
         subCategory: "Topwear"
     },
@@ -415,7 +415,7 @@ export const products = [
         description: "Adorable beanie hat for kids.",
         imageUrl: "https://example.com/products/children/hat1.jpg",
         name: "Kids Beanie Hat",
-        price: 14.99,
+        price: 1499,
         sizes: ["One Size"],
         subCategory: "Accessories"
     },
@@ -427,7 +427,7 @@ export const products = [
         description: "High-quality leather belt for men.",
         imageUrl: "https://example.com/products/men/belt1.jpg",
         name: "Men’s Leather Belt",
-        price: 24.99,
+        price: 2499,
         sizes: ["S", "M", "L"],
         subCategory: "Accessories"
     },
@@ -439,7 +439,7 @@ export const products = [
         description: "Comfy maternity pants for women.",
         imageUrl: "https://example.com/products/women/maternitypants1.jpg",
         name: "Maternity Pants",
-        price: 39.99,
+        price: 3999,
         sizes: ["M", "L", "XL"],
         subCategory: "Bottomwear"
     },
@@ -451,7 +451,7 @@ export const products = [
         description: "Cute socks for kids.",
         imageUrl: "https://example.com/products/children/socks1.jpg",
         name: "Kids Socks",
-        price: 9.99,
+        price: 999,
         sizes: ["S", "M", "L"],
         subCategory: "Accessories"
     },
@@ -463,7 +463,7 @@ export const products = [
         description: "Comfortable sneakers for men.",
         imageUrl: "https://example.com/products/men/sneakers2.jpg",
         name: "Men’s Sneakers",
-        price: 69.99,
+        price: 6099,
         sizes: ["M", "L"],
         subCategory: "Footwear"
     },
@@ -475,7 +475,7 @@ export const products = [
         description: "Casual dress for women.",
         imageUrl: "https://example.com/products/women/dress3.jpg",
         name: "Women’s Casual Dress",
-        price: 54.99,
+        price: 5499,
         sizes: ["S", "M", "L", "XL"],
         subCategory: "Topwear"
     },
@@ -487,7 +487,7 @@ export const products = [
         description: "Fun t-shirt for kids.",
         imageUrl: "https://example.com/products/children/tshirt1.jpg",
         name: "Kids Fun T-shirt",
-        price: 19.99,
+        price: 1999,
         sizes: ["S", "M", "L"],
         subCategory: "Topwear"
     },
@@ -499,7 +499,7 @@ export const products = [
         description: "Classy leather shoes for men.",
         imageUrl: "https://example.com/products/men/shoes1.jpg",
         name: "Men’s Leather Shoes",
-        price: 89.99,
+        price: 8999,
         sizes: ["M", "L"],
         subCategory: "Footwear"
     },
@@ -511,7 +511,7 @@ export const products = [
         description: "High-waisted jeans for women.",
         imageUrl: "https://example.com/products/women/jeans1.jpg",
         name: "Women’s High-Waisted Jeans",
-        price: 49.99,
+        price: 4999,
         sizes: ["S", "M", "L", "XL"],
         subCategory: "Bottomwear"
     },
@@ -523,7 +523,7 @@ export const products = [
         description: "Comfy kids slippers.",
         imageUrl: "https://example.com/products/children/slippers1.jpg",
         name: "Kids Slippers",
-        price: 12.99,
+        price: 1299,
         sizes: ["S", "M", "L"],
         subCategory: "Footwear"
     },
@@ -535,7 +535,7 @@ export const products = [
         description: "Soft wool scarf for men.",
         imageUrl: "https://example.com/products/men/scarf1.jpg",
         name: "Men’s Wool Scarf",
-        price: 34.99,
+        price: 3499,
         sizes: ["One Size"],
         subCategory: "Accessories"
     },
@@ -547,7 +547,7 @@ export const products = [
         description: "Chic blouse for women.",
         imageUrl: "https://example.com/products/women/blouse2.jpg",
         name: "Women’s Chic Blouse",
-        price: 39.99,
+        price: 3999,
         sizes: ["S", "M", "L", "XL"],
         subCategory: "Topwear"
     },
@@ -559,7 +559,7 @@ export const products = [
         description: "Cozy hoodie for men.",
         imageUrl: "https://example.com/products/men/hoodie2.jpg",
         name: "Men’s Cozy Hoodie",
-        price: 49.99,
+        price: 4999,
         sizes: ["S", "M", "L", "XL"],
         subCategory: "Topwear"
     },
@@ -571,7 +571,7 @@ export const products = [
         description: "Fun socks for kids.",
         imageUrl: "https://example.com/products/children/socks2.jpg",
         name: "Kids Fun Socks",
-        price: 7.99,
+        price: 799,
         sizes: ["S", "M", "L"],
         subCategory: "Accessories"
     },
@@ -583,7 +583,7 @@ export const products = [
         description: "Elegant necklace for women.",
         imageUrl: "https://example.com/products/women/necklace1.jpg",
         name: "Women’s Elegant Necklace",
-        price: 19.99,
+        price: 1999,
         sizes: ["One Size"],
         subCategory: "Accessories"
     },
@@ -595,8 +595,9 @@ export const products = [
         description: "Men’s leather gloves for winter.",
         imageUrl: "https://example.com/products/men/gloves1.jpg",
         name: "Men’s Leather Gloves",
-        price: 29.99,
+        price: 2999,
         sizes: ["M", "L"],
         subCategory: "Accessories"
     }
 ]
+
