@@ -8,7 +8,7 @@ import axios from 'axios';
 
 const Carousel = ({ _topic }) => {
 
-  const PEXELS_API_KEY="fhJmaUZgfrovzGQvw0i1LkH5kwyoeGtGF0CfZWMFy1CS07exfDbC7E3L";
+  const PEXELS_API_KEY = "fhJmaUZgfrovzGQvw0i1LkH5kwyoeGtGF0CfZWMFy1CS07exfDbC7E3L";
   const [images, setImages] = useState([]);
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -39,16 +39,12 @@ const Carousel = ({ _topic }) => {
 
     // Clear the interval on cleanup
     return () => clearInterval(autoSlide);
-  }, [_topic, images.length ]); // Ensure that images are available before setting interval
+  }, [_topic, images.length]); // Ensure that images are available before setting interval
 
   return (
-      //<h1 className="text-center text-xl mb-4">{`Images for ${_topic}`}</h1>
+    //<h1 className="text-center text-xl mb-4">{`Images for ${_topic}`}</h1>
 
-      <div
-      id="default-carousel"
-      className="relative md:w-[350px] md:h-[300px] w-full h-56 text-center"
-      data-carousel="slide"
-    >
+    <div id="default-carousel" className="relative md:w-[350px] md:h-[300px] w-full h-56 text-center" data-carousel="slide" >
       {/* Carousel Image Container */}
       <div className="relative h-56 overflow-hidden rounded-lg md:h-52 p-5 w-full">
         {images.map((url, index) => (
@@ -67,7 +63,7 @@ const Carousel = ({ _topic }) => {
             />
           </div>
         ))}
-    
+
         {/* Previous Button */}
         <button
           type="button"
@@ -87,7 +83,7 @@ const Carousel = ({ _topic }) => {
             <span className="sr-only">Previous</span>
           </span>
         </button>
-    
+
         {/* Next Button */}
         <button
           type="button"
@@ -109,8 +105,8 @@ const Carousel = ({ _topic }) => {
         </button>
       </div>
     </div>
-    
-    
+
+
   );
 };
 

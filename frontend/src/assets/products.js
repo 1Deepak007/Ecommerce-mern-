@@ -37,7 +37,7 @@ export const products = [
     },
     {
         _id: "4",
-        bestseller: true,
+        bestseller: false,
         category: "girls",
         date: new Date("2024-09-17"),
         description: "Trendy skirt for girls, perfect for casual outings.",
@@ -85,7 +85,7 @@ export const products = [
     },
     {
         _id: "8",
-        bestseller: true,
+        bestseller: false,
         category: "children",
         date: new Date("2024-09-05"),
         description: "Colorful shoes for children, perfect for everyday use.",
@@ -121,7 +121,7 @@ export const products = [
     },
     {
         _id: "11",
-        bestseller: true,
+        bestseller: false,
         category: "men",
         date: new Date("2024-09-25"),
         description: "Classic leather jacket for men.",
@@ -133,7 +133,7 @@ export const products = [
     },
     {
         _id: "12",
-        bestseller: true,
+        bestseller: false,
         category: "women",
         date: new Date("2024-09-17"),
         description: "Stylish boots for women, perfect for winter.",
@@ -157,7 +157,7 @@ export const products = [
     },
     {
         _id: "14",
-        bestseller: true,
+        bestseller: false,
         category: "men",
         date: new Date("2024-09-13"),
         description: "Comfortable sneakers for men.",
@@ -181,7 +181,7 @@ export const products = [
     },
     {
         _id: "16",
-        bestseller: true,
+        bestseller: false,
         category: "men",
         date: new Date("2024-09-10"),
         description: "Elegant tie for men, perfect for formal occasions.",
@@ -193,7 +193,7 @@ export const products = [
     },
     {
         _id: "17",
-        bestseller: true,
+        bestseller: false,
         category: "women",
         date: new Date("2024-09-24"),
         description: "Trendy handbag for women.",
@@ -217,7 +217,7 @@ export const products = [
     },
     {
         _id: "19",
-        bestseller: true,
+        bestseller: false,
         category: "men",
         date: new Date("2024-09-22"),
         description: "Smartwatch for men with fitness tracking features.",
@@ -241,7 +241,7 @@ export const products = [
     },
     {
         _id: "21",
-        bestseller: true,
+        bestseller: false,
         category: "men",
         date: new Date("2024-09-18"),
         description: "Stylish sunglasses for men, perfect for summer.",
@@ -265,7 +265,7 @@ export const products = [
     },
     {
         _id: "23",
-        bestseller: true,
+        bestseller: false,
         category: "children",
         date: new Date("2024-09-15"),
         description: "Cute shoes for children.",
@@ -277,7 +277,7 @@ export const products = [
     },
     {
         _id: "24",
-        bestseller: true,
+        bestseller: false,
         category: "women",
         date: new Date("2024-09-20"),
         description: "Stylish scarf for women, perfect for winter.",
@@ -301,7 +301,7 @@ export const products = [
     },
     {
         _id: "26",
-        bestseller: true,
+        bestseller: false,
         category: "women",
         date: new Date("2024-09-22"),
         description: "Elegant earrings for women.",
@@ -313,7 +313,7 @@ export const products = [
     },
     {
         _id: "27",
-        bestseller: true,
+        bestseller: false,
         category: "men",
         date: new Date("2024-09-23"),
         description: "Casual jacket for men.",
@@ -337,7 +337,7 @@ export const products = [
     },
     {
         _id: "29",
-        bestseller: true,
+        bestseller: false,
         category: "women",
         date: new Date("2024-09-25"),
         description: "Fashionable sunglasses for women.",
@@ -421,7 +421,7 @@ export const products = [
     },
     {
         _id: "36",
-        bestseller: true,
+        bestseller: false,
         category: "men",
         date: new Date("2024-09-21"),
         description: "High-quality leather belt for men.",
@@ -433,7 +433,7 @@ export const products = [
     },
     {
         _id: "37",
-        bestseller: false,
+        bestseller: true,
         category: "women",
         date: new Date("2024-09-30"),
         description: "Comfy maternity pants for women.",
@@ -469,7 +469,7 @@ export const products = [
     },
     {
         _id: "40",
-        bestseller: true,
+        bestseller: false,
         category: "women",
         date: new Date("2024-09-29"),
         description: "Casual dress for women.",
@@ -481,7 +481,7 @@ export const products = [
     },
     {
         _id: "41",
-        bestseller: false,
+        bestseller: true,
         category: "children",
         date: new Date("2024-09-27"),
         description: "Fun t-shirt for kids.",
@@ -517,7 +517,7 @@ export const products = [
     },
     {
         _id: "44",
-        bestseller: true,
+        bestseller: false,
         category: "children",
         date: new Date("2024-09-25"),
         description: "Comfy kids slippers.",
@@ -529,7 +529,7 @@ export const products = [
     },
     {
         _id: "45",
-        bestseller: false,
+        bestseller: true,
         category: "men",
         date: new Date("2024-09-15"),
         description: "Soft wool scarf for men.",
@@ -541,7 +541,7 @@ export const products = [
     },
     {
         _id: "46",
-        bestseller: true,
+        bestseller: false,
         category: "women",
         date: new Date("2024-09-10"),
         description: "Chic blouse for women.",
@@ -553,7 +553,7 @@ export const products = [
     },
     {
         _id: "47",
-        bestseller: true,
+        bestseller: false,
         category: "men",
         date: new Date("2024-09-18"),
         description: "Cozy hoodie for men.",
@@ -565,7 +565,7 @@ export const products = [
     },
     {
         _id: "48",
-        bestseller: false,
+        bestseller: true,
         category: "children",
         date: new Date("2024-09-28"),
         description: "Fun socks for kids.",
@@ -577,7 +577,7 @@ export const products = [
     },
     {
         _id: "49",
-        bestseller: true,
+        bestseller: false,
         category: "women",
         date: new Date("2024-09-11"),
         description: "Elegant necklace for women.",
