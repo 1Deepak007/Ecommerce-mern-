@@ -31,10 +31,10 @@ const Navbar = () => {
                 <div className="hidden md:flex items-center space-x-8">
                     <CiSearch className="hidden md:inline size-6" />
                     <ul className="flex space-x-8">
-                        <li><NavLink to="/" className="text-gray-900 dark:text-white">HOME</NavLink></li>
-                        <li><NavLink to="/collections" className="text-gray-900 dark:text-white">COLLECTIONS</NavLink></li>
-                        <li><NavLink to="/about" className="text-gray-900 dark:text-white">ABOUT</NavLink></li>
-                        <li><NavLink to="/contact" className="text-gray-900 dark:text-white">CONTACT</NavLink></li>
+                        <li><NavLink to="/" className={({ isActive }) => isActive ? "text-red-500" : "text-gray-900 dark:text-white hover:text-lime-500"}>HOME</NavLink></li>
+                        <li><NavLink to="/collections" className={({ isActive }) => isActive ? "text-red-500" : "text-gray-900 dark:text-white hover:text-lime-500"}>COLLECTIONS</NavLink></li>
+                        <li><NavLink to="/about" className={({ isActive }) => isActive ? "text-red-500" : "text-gray-900 dark:text-white hover:text-lime-500"}>ABOUT</NavLink></li>
+                        <li><NavLink to="/contact" className={({ isActive }) => isActive ? "text-red-500" : "text-gray-900 dark:text-white hover:text-lime-500"}>CONTACT</NavLink></li>
                     </ul>
                     <div className="flex items-center space-x-4">
                         <FaUser className="text-gray-900 dark:text-white size-5" />
@@ -45,7 +45,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-
+                
             {/* Sidebar menu (shown on mobile screens) */}
             <div className={`fixed inset-y-0 left-0 w-64 bg-white dark:bg-gray-900 p-6 transform ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out md:hidden z-50`}>
                 <button  onClick={() => setSidebarOpen(false)} className="text-gray-500 dark:text-gray-400 mb-6">

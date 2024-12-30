@@ -18,6 +18,7 @@ import ShoppingAccount from './pages/shopping-view/Account'
 import ShoppingCheckout from './pages/shopping-view/Checkout'
 import ShoppingListing from './pages/shopping-view/Listing'
 import Footer from './components/Footer'
+// import SearchBar from './components/SearchBar'
 
 
 
@@ -25,6 +26,7 @@ const App = () => {
   return (
     <div className="px-[2vw] md:px-[0vw] lg:px-[2vw]">
       <Navbar />
+      {/* <SearchBar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/collections" element={<Collection />} />
@@ -47,9 +49,9 @@ const App = () => {
       </Routes>
 
 
-      
+
       <Footer />
-      
+
     </div>
   )
 }

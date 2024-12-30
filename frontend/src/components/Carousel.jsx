@@ -1,14 +1,14 @@
+/* eslint-disable react/prop-types */
 // pexels spi key :        fhJmaUZgfrovzGQvw0i1LkH5kwyoeGtGF0CfZWMFy1CS07exfDbC7E3L
 // api.pexels.com/videos/popular
 // https://api.pexels.com/v1/search?query=nature&per_page=1
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 
 const Carousel = ({ _topic }) => {
 
-  const PEXELS_API_KEY = "fhJmaUZgfrovzGQvw0i1LkH5kwyoeGtGF0CfZWMFy1CS07exfDbC7E3L";
   const [images, setImages] = useState([]);
   const [currentSlide, setCurrentSlide] = useState(0);
 
